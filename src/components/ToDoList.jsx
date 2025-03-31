@@ -78,6 +78,7 @@ const markAsNotDone = (index) => {
     return(
         
             <div className="bg-white w-full h-full rounded-4xl shadow-2xl border-none p-4 px-6">
+                <h1 className="text-4xl block text-center font-bold mb-3 text-purple-500">My To Do List</h1>
                 <hr className="text-purple-400 font-bold mb-3" />
                 <div className="flex justify-evenly h-[] gap-4 w-full">
                     <div className="adding w-[40%] h-[50%] ">
